@@ -1,16 +1,16 @@
 # depslib dependency file v1.0
-1542097905 source:d:\documents\свеаю\sidikov_proga\semestrovaya\dictionary.cpp
+1542700364 source:d:\documents\свеаю\sidikov_proga\semestrovaya\dictionary.cpp
 	"Dictionary.h"
 
-1542096418 source:d:\documents\свеаю\sidikov_proga\semestrovaya\main.cpp
+1542700388 source:d:\documents\свеаю\sidikov_proga\semestrovaya\main.cpp
 	<bits/stdc++.h>
 	"Parser.h"
 	"Dictionary.h"
 
-1542094039 source:d:\documents\свеаю\sidikov_proga\semestrovaya\parser.cpp
+1542699989 source:d:\documents\свеаю\sidikov_proga\semestrovaya\parser.cpp
 	"Parser.h"
 
-1542097837 source:d:\documents\свеаю\sidikov_proga\semestrovaya\text.cpp
+1542698564 source:d:\documents\свеаю\sidikov_proga\semestrovaya\text.cpp
 	<iostream>
 	"Text.h"
 
@@ -25,15 +25,15 @@
 	<stdlib.h>
 	<string.h>
 
-1542094045 d:\documents\свеаю\sidikov_proga\semestrovaya\parser.h
+1542700291 d:\documents\свеаю\sidikov_proga\semestrovaya\parser.h
 	"Text.h"
 	<iostream>
 
-1542096455 d:\documents\свеаю\sidikov_proga\semestrovaya\text.h
+1542698347 d:\documents\свеаю\sidikov_proga\semestrovaya\text.h
 	"Word.h"
 
 1541084966 d:\documents\свеаю\sidikov_proga\semestrovaya\vector.h
 
-1542095771 d:\documents\свеаю\sidikov_proga\semestrovaya\dictionary.h
+1542699030 d:\documents\свеаю\sidikov_proga\semestrovaya\dictionary.h
 	"Text.h"
 

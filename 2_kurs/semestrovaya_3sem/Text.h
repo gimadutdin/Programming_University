@@ -13,6 +13,7 @@ private:
 public:
     Text();
     void operator+=(Word *word);
+    Text* operator+(Text *text);
     //void operator=(char str[]);
     //int operator==(Word w2);
     void show();

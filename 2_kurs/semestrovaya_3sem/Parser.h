@@ -9,8 +9,8 @@ class Parser
 private:
     Text *text;
 public:
-    Parser(char str[]);
-    Text* getText();
+    Parser(){}
+    Text* Parse(char str[]);
 };
 
 

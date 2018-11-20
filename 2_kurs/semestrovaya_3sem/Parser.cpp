@@ -1,8 +1,7 @@
 #include "Parser.h"
 
-Parser::Parser(char str[])
+Text* Parser::Parse(char str[])
 {
-    //std::cout << str;
     strcat(str, " ");
     int str_len = strlen(str);
     this->text = new Text();
@@ -23,9 +22,5 @@ Parser::Parser(char str[])
         *word += str[pos];
         pos++;
     }
-}
-
-Text* Parser::getText()
-{
     return text;
 }

@@ -133,5 +133,14 @@ void Text::only_unique()
         delete t[i];
     }
     delete t;
+}
 
+Text* Text::operator+(Text *text2)
+{
+    Text *text = this->cpy();
+    for (int i = 0; i < text2->len; i++)
+    {
+        *text += text2->words[i];
+    }
+    return text;
 }

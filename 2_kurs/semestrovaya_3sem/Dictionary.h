@@ -8,7 +8,7 @@ class Dictionary
 private:
     Text *dict;
 public:
-    Dictionary(Text *text);
+    Dictionary(Text *text1, Text *text2);
     //Text getText();
     void show();
 };
