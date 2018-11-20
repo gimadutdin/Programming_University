@@ -1,0 +1,31 @@
+# depslib dependency file v1.0
+1540281968 source:d:\documents\свеаю\sidikov_proga\bst_bfs\main.cpp
+	<bits/stdc++.h>
+	"Tree.h"
+
+1540280793 d:\documents\свеаю\sidikov_proga\bst_bfs\tree.h
+	"TreeNode.h"
+	"Queue.h"
+
+1540281755 d:\documents\свеаю\sidikov_proga\bst_bfs\treenode.h
+
+1540759337 d:\documents\свеаю\sidikov_proga\bst_bfs\queue.h
+	"QueueNode.h"
+
+1540759356 d:\documents\свеаю\sidikov_proga\bst_bfs\queuenode.h
+	"TreeNode.h"
+
+1540759004 source:d:\documents\свеаю\sidikov_proga\bst_bfs\queue.cpp
+	"Queue.h"
+	<iostream>
+
+1540759348 source:d:\documents\свеаю\sidikov_proga\bst_bfs\queuenode.cpp
+	"QueueNode.h"
+
+1540279994 source:d:\documents\свеаю\sidikov_proga\bst_bfs\treenode.cpp
+	"TreeNode.h"
+
+1540508582 source:d:\documents\свеаю\sidikov_proga\bst_bfs\tree.cpp
+	"Tree.h"
+	<iostream>
+
