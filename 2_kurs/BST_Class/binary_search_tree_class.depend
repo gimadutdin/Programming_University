@@ -1,0 +1,17 @@
+# depslib dependency file v1.0
+1538249185 source:d:\documents\свеаю\sidikov_proga\binary_search_tree_class\main.cpp
+	<bits/stdc++.h>
+	"Tree.h"
+
+1538251021 d:\documents\свеаю\sidikov_proga\binary_search_tree_class\tree.h
+	"Node.h"
+
+1538245852 d:\documents\свеаю\sidikov_proga\binary_search_tree_class\node.h
+
+1538251222 source:d:\documents\свеаю\sidikov_proga\binary_search_tree_class\node.cpp
+	"Node.h"
+
+1538253022 source:d:\documents\свеаю\sidikov_proga\binary_search_tree_class\tree.cpp
+	"Tree.h"
+	<iostream>
+
