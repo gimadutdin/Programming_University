@@ -13,7 +13,7 @@ void Word::operator+=(char c)
 {
     if (len == max_len)
     {
-        this->max_len += 50;
+        this->max_len = this->max_len*3/2 + 1;
         this->letters = (char *)realloc(this->letters, this->max_len*sizeof(char));
     }
     this->letters[len] = c;
@@ -29,9 +29,13 @@ void Word::operator+=(char c)
     this->max_len = str_len + 10;
 }*/
 
-int Word::operator==(Word w2)
+bool Word::operator==(Word *w2)
 {
-    return strcmp(this->letters, w2.letters);
+    char *s1 = this->getString();
+    char *s2 = w2->getString();
+    delete s1;
+    delete s2;
+    return strcmp(s1, s2) == 0;
 }
 
 void Word::show()

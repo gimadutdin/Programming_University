@@ -2,7 +2,7 @@
 #define TEXT_H_INCLUDED
 #include "Word.h"
 
-const char spec_chars[] = ",.:;()!?<>!@#$%^&*+-_/\{}|~";
+const char spec_chars[] = ",.:;()!?<>!@#$%^&*+-_/\{}|~\"";
 
 class Text
 {
@@ -21,6 +21,10 @@ public:
     Text* cpy();
     void lex_sort();
     void only_unique();
+    int getWordFrequency(Word *word);
+
+    int getLen() {return this->len;}
+    Word* getWord(int i) {return this->words[i];}
 };
 
 

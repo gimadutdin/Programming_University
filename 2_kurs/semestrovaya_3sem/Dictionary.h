@@ -11,6 +11,9 @@ public:
     Dictionary(Text *text1, Text *text2);
     //Text getText();
     void show();
+
+    int getLen() {return this->dict->getLen();}
+    Word* getWord(int i) {return this->dict->getWord(i);}
 };
 
 

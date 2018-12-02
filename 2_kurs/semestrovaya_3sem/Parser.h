@@ -3,14 +3,18 @@
 
 #include "Text.h"
 #include <iostream>
+#include <fstream>
+#include <string>
 
 class Parser
 {
 private:
     Text *text;
+    char* readFile(char fileName[]);
 public:
     Parser(){}
-    Text* Parse(char str[]);
+    Text* parseString(char str[]);
+    Text* parseFromFile(char fileName[]);
 };
 
 

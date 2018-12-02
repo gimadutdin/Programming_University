@@ -12,7 +12,7 @@ void Text::operator+=(Word *word)
 {
     if (len == max_len)
     {
-        this->max_len += 50;
+        this->max_len = this->max_len*3/2 + 1;
         this->words = (Word **)realloc(this->words, this->max_len*sizeof(Word *));
     }
     this->words[len] = word;
@@ -25,7 +25,6 @@ void Text::show()
     {
         this->words[i]->show();
     }
-    std::cout << "\n";
 }
 
 void Text::Normalize()
@@ -143,4 +142,17 @@ Text* Text::operator+(Text *text2)
         *text += text2->words[i];
     }
     return text;
+}
+
+int Text::getWordFrequency(Word *word)
+{
+    int cnt = 0;
+    for (int i = 0; i < this->len; i++)
+    {
+        if (*this->words[i] == word)
+        {
+            cnt++;
+        }
+    }
+    return cnt;
 }

@@ -13,7 +13,7 @@ public:
     Word();
     void operator+=(char c);
     //void operator=(char str[]);
-    int operator==(Word w2);
+    bool operator==(Word *w2);
     void show();
     bool isEmpty();
     char* getString();
