@@ -114,24 +114,27 @@ void Text::only_unique()
             i++;
             continue;
         }
-        while (i + 1 < this->len && strcmp(this->words[i]->getString(), this->words[i + 1]->getString()) == 0)
+        //char *s1, *s2;
+        while (i + 1 < this->len && strcmp(/*s1 = */this->words[i]->getString(), /*s2 = */this->words[i + 1]->getString()) == 0)
         {
             i++;
+            //delete s1;
+            //delete s2;
         }
         i++;
         //std::cout << "(" << this->words[i]->getString() << ")\n";
     }
-    Word **t = this->words;
+    //Word **t = this->words;
 
     this->words = words2;
     this->len = add_index;
-    this->max_len = words_count_1;
+    //this->max_len = words_count_1;
 
-    for (int i = 0; i < words_count_1; i++)
-    {
-        delete t[i];
-    }
-    delete t;
+//    for (int i = 0; i < words_count_1; i++)
+//    {
+//        delete t[i];
+//    }
+//    delete t;
 }
 
 Text* Text::operator+(Text *text2)
@@ -141,6 +144,7 @@ Text* Text::operator+(Text *text2)
     {
         *text += text2->words[i];
     }
+    //text->show();
     return text;
 }
 

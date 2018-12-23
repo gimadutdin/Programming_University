@@ -44,3 +44,49 @@
 1543343251 d:\documents\свеаю\sidikov_proga\semestrovaya\dictionary.h
 	"Text.h"
 
+1545127472 source:c:\users\rmgimadutdinov\desktop\programming_university-master\2_kurs\semestrovaya_3sem\dictionary.cpp
+	"Dictionary.h"
+	<iostream>
+
+1544517119 c:\users\rmgimadutdinov\desktop\programming_university-master\2_kurs\semestrovaya_3sem\dictionary.h
+	"Text.h"
+
+1544517119 c:\users\rmgimadutdinov\desktop\programming_university-master\2_kurs\semestrovaya_3sem\text.h
+	"Word.h"
+
+1544517119 c:\users\rmgimadutdinov\desktop\programming_university-master\2_kurs\semestrovaya_3sem\word.h
+	<stdlib.h>
+	<string.h>
+
+1545126379 source:c:\users\rmgimadutdinov\desktop\programming_university-master\2_kurs\semestrovaya_3sem\main.cpp
+	<bits/stdc++.h>
+	"Parser.h"
+	"Dictionary.h"
+	"Vector.h"
+
+1544517119 c:\users\rmgimadutdinov\desktop\programming_university-master\2_kurs\semestrovaya_3sem\parser.h
+	"Text.h"
+	<iostream>
+	<fstream>
+	<string>
+
+1544517119 c:\users\rmgimadutdinov\desktop\programming_university-master\2_kurs\semestrovaya_3sem\vector.h
+	<iostream>
+	<cmath>
+	"Text.h"
+	"Dictionary.h"
+
+1544517119 source:c:\users\rmgimadutdinov\desktop\programming_university-master\2_kurs\semestrovaya_3sem\parser.cpp
+	"Parser.h"
+
+1545127587 source:c:\users\rmgimadutdinov\desktop\programming_university-master\2_kurs\semestrovaya_3sem\text.cpp
+	<iostream>
+	"Text.h"
+
+1544517119 source:c:\users\rmgimadutdinov\desktop\programming_university-master\2_kurs\semestrovaya_3sem\vector.cpp
+	"Vector.h"
+
+1545127628 source:c:\users\rmgimadutdinov\desktop\programming_university-master\2_kurs\semestrovaya_3sem\word.cpp
+	<iostream>
+	"Word.h"
+

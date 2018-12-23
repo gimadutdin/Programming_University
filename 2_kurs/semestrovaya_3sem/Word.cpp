@@ -33,9 +33,10 @@ bool Word::operator==(Word *w2)
 {
     char *s1 = this->getString();
     char *s2 = w2->getString();
+    int res = strcmp(s1, s2) == 0;
     delete s1;
     delete s2;
-    return strcmp(s1, s2) == 0;
+    return res;
 }
 
 void Word::show()
