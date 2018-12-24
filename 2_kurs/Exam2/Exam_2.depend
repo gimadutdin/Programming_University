@@ -1,0 +1,45 @@
+# depslib dependency file v1.0
+1545690112 source:d:\documents\свеаю\sidikov_proga\exam_2\arraylist.cpp
+	"ArrayList.h"
+
+1545691290 d:\documents\свеаю\sidikov_proga\exam_2\arraylist.h
+	"IList.h"
+	<cstdlib>
+
+1545689286 d:\documents\свеаю\sidikov_proga\exam_2\ilist.h
+
+1545692422 source:d:\documents\свеаю\sidikov_proga\exam_2\linkedlist.cpp
+	"LinkedList.h"
+
+1545689457 d:\documents\свеаю\sidikov_proga\exam_2\linkedlist.h
+	<iostream>
+	"IList.h"
+
+1545693205 source:d:\documents\свеаю\sidikov_proga\exam_2\main.cpp
+	<iostream>
+	"IList.h"
+	"LinkedList.h"
+	"ArrayList.h"
+	"IStack.h"
+	"StackListImpl.h"
+	"IQueue.h"
+	"QueueListImpl.h"
+
+1545689297 d:\documents\свеаю\sidikov_proga\exam_2\istack.h
+
+1545689490 d:\documents\свеаю\sidikov_proga\exam_2\stacklistimpl.h
+	"IStack.h"
+	"LinkedList.h"
+
+1545688736 d:\documents\свеаю\sidikov_proga\exam_2\iqueue.h
+
+1545688702 d:\documents\свеаю\sidikov_proga\exam_2\queuelistimpl.h
+	"IQueue.h"
+	"IList.h"
+
+1545693033 source:d:\documents\свеаю\sidikov_proga\exam_2\queuelistimpl.cpp
+	"QueueListImpl.h"
+
+1545689540 source:d:\documents\свеаю\sidikov_proga\exam_2\stacklistimpl.cpp
+	"StackListImpl.h"
+

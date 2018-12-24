@@ -13,3 +13,7 @@ int StackListImpl::pop() {
 StackListImpl::StackListImpl(IList *list) {
     this->list = list;
 }
+
+bool StackListImpl::contains(int value) {
+    return this->list->contains(value);
+}

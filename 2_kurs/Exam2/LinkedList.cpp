@@ -51,7 +51,13 @@ void LinkedList::remove(int index) {
     {
         t = t->next;
     }
-    if (t != nullptr)
+    if (t == this->top)
+    {
+        Node *p = this->top->next;
+        delete this->top;
+        this->top = p;
+        this->count--;
+    } else if (t != nullptr)
     {
         Node *p = this->top;
         while (p->next != t)
@@ -62,6 +68,17 @@ void LinkedList::remove(int index) {
         delete t;
         this->count--;
     }
+}
 
+bool LinkedList::contains(int value)
+{
+    Node *t = this->top;
+    do
+    {
+        if (t->data == value)
+            return true;
+        t = t->next;
+    } while (t != nullptr);
+    return false;
 }
 

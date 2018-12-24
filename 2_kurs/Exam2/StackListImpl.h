@@ -1,7 +1,3 @@
-//
-// Created by admin on 27.11.2018.
-//
-
 #ifndef EXAM2_STACKLINKEDLISTIMPL_H
 #define EXAM2_STACKLINKEDLISTIMPL_H
 
@@ -16,6 +12,7 @@ public:
     StackListImpl(IList *list);
     void push(int value) override;
     int pop() override;
+    bool contains(int value) override;
 };
 
 

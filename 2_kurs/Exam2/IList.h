@@ -1,7 +1,3 @@
-//
-// Created by admin on 27.11.2018.
-//
-
 #ifndef EXAM2_LIST_H
 #define EXAM2_LIST_H
 
@@ -13,6 +9,7 @@ public:
     virtual int get(int index) = 0;
     virtual bool isEmpty() = 0;
     virtual void remove(int index) = 0;
+    virtual bool contains(int value) = 0;
 };
 
 

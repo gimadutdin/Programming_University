@@ -36,6 +36,7 @@ public:
     int size() override;
     int get(int index) override;
     void remove(int index) override;
+    bool contains(int value) override;
 };
 
 

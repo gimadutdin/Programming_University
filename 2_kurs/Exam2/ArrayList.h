@@ -9,8 +9,10 @@ class ArrayList : public IList {
     int *arr;
     int maxSize, count;
 
-    ArrayList();
     void addMemory();
+
+    public:
+    ArrayList();
 
     bool isEmpty() override;
     void add(int value) override ;
@@ -18,6 +20,7 @@ class ArrayList : public IList {
     int size() override;
     int get(int index) override;
     void remove(int index) override;
+    bool contains(int value) override;
 };
 
 

@@ -32,6 +32,17 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="ArrayList.cpp" />
+		<Unit filename="ArrayList.h" />
+		<Unit filename="IList.h" />
+		<Unit filename="IQueue.h" />
+		<Unit filename="IStack.h" />
+		<Unit filename="LinkedList.cpp" />
+		<Unit filename="LinkedList.h" />
+		<Unit filename="QueueListImpl.cpp" />
+		<Unit filename="QueueListImpl.h" />
+		<Unit filename="StackListImpl.cpp" />
+		<Unit filename="StackListImpl.h" />
 		<Unit filename="main.cpp" />
 		<Extensions>
 			<code_completion />

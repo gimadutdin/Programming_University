@@ -54,3 +54,15 @@ void ArrayList::addMemory()
     this->maxSize = (this->maxSize*3)/2;
     this->arr = (int *)realloc(this->arr, this->maxSize);
 }
+
+bool ArrayList::contains(int value)
+{
+    for (int i = 0; i < this->count; i++)
+    {
+        if (this->arr[i] == value)
+        {
+            return true;
+        }
+    }
+    return false;
+}
